@@ -77,3 +77,9 @@ extend google.protobuf.FieldOptions {
   // methods in the generated Dart file. Should be lowerCamelCase.
   optional string dart_name = 28700919;
 }
+
+extend google.protobuf.EnumOptions {
+  // Uses the given name for getters, setters and as suffixes for has/clear
+  // methods in the generated Dart file. Should be lowerCamelCase.
+  optional string dart_enum_name = 92870091;
+}

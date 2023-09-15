@@ -193,6 +193,11 @@ class Dart_options {
       _omitFieldNames ? '' : 'dartName',
       28700919,
       $pb.PbFieldType.OS);
+  static final dartEnumName = $pb.Extension<$core.String>(
+      _omitMessageNames ? '' : 'google.protobuf.EnumOptions',
+      _omitFieldNames ? '' : 'dartEnumName',
+      92870091,
+      $pb.PbFieldType.OS);
   static void registerAllExtensions($pb.ExtensionRegistry registry) {
     registry.add(imports);
     registry.add(defaultMixin);
@@ -202,6 +207,7 @@ class Dart_options {
     registry.add(overrideHasMethod);
     registry.add(overrideClearMethod);
     registry.add(dartName);
+    registry.add(dartEnumName);
   }
 }
 
